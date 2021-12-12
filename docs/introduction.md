@@ -14,7 +14,7 @@ referred to as **_shebang1_**. The shebang instructs the operating system to run
 
 Then you can execute the shell script file from the command line using one of the following:
 
-```
+```shell
 ./filename.sh – Most commonly used, and recommended
 /bin/bash filename.sh
 bash filename.sh – assuming /bin is in your $PATH
