@@ -51,3 +51,52 @@ If you want to print the contents with line numbers, use `-n` with `cat`.
 
 `cat -n file.txt`
 
+
+## Write to a file
+
+`cat > file`
+
+It will let you write the text on terminal which will be saved in a file named _file_.
+
+`cat >>file`
+
+will do the same, except it will append the text to the end of the file.
+
+
+A here document can be used to inline the contents of a file into a command line or a script:
+
+```shell
+cat <<END >file
+Hello, World.
+END
+```
+
+The token after the `<<` redirection symbol is an arbitrary string which needs to occur alone on a line to indicate the end
+of the here document. You can add quoting to prevent the shell from performing command substitution and variable interpolation.
+
+```shell
+cat <<'fnord'
+Nothing in 'here' will be $changed
+fnord
+```
+
+
+## Read from standard input
+
+`cat < file.txt`
+
+Output is same as `cat file.txt`, but it reads the contents of the file from standard input instead of directly from the file.
+
+
+## Display line numbers with output
+
+Using the `--number` flag to print line numbers before each line. Alternatively, `-n` does the same thing.
+
+`cat --number file`
+
+To skip empty lines when counting lines, use the `--number-nonblank`, or simply `-b`.
+
+
+## Concatenate gzipped files
+
+Files compressed by `gzip` can be directly [concatenated](#concatenate-files) into larger gzipped files.
