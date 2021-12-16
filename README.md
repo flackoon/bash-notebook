@@ -5,3 +5,4 @@
 3. [Navigating Directories](docs/navigating-directories.md)
 4. [Listing Files](docs/listing-files.md)
 5. [Using cat](docs/using-cat.md)
+6. [Grep](docs/grep.md)
