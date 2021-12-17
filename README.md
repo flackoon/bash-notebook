@@ -6,3 +6,4 @@
 4. [Listing Files](docs/listing-files.md)
 5. [Using cat](docs/using-cat.md)
 6. [Grep](docs/grep.md)
+7. [Aliasing](docs/aliasing.md)
