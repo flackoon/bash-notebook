@@ -7,3 +7,5 @@
 5. [Using cat](docs/using-cat.md)
 6. [Grep](docs/grep.md)
 7. [Aliasing](docs/aliasing.md)
+8. [Jobs and Processes](docs/jobs_and_processes.md)
+
