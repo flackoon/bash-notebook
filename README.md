@@ -10,4 +10,5 @@
 8. [Control Structures](docs/control-structures.md)
 9. [Jobs and Processes](docs/jobs_and_processes.md)
 10. [Arrays](docs/arrays.md)
+11. [Brackets](docs/brackets.md)
 
